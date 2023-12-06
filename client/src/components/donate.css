@@ -1,0 +1,31 @@
+.donate-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-main>h2 {
+    padding: 1em 0;
+}
+
+.donate-main>form {
+    padding: 2em 1em;
+    width: 360px;
+    padding: 0 1em;
+}
+
+.donate-main>form>input,
+.donate-main>form>button {
+    font-size: 1.1em;
+    border: none;
+    border: 2px solid grey;
+    padding: 0.25em 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    outline: none;
+
+}
+
+.donate-btn {
+    background-color: rgb(255, 208, 0);
+}
